@@ -1,0 +1,435 @@
+
+body{
+	margin: 0;
+	font-family: 'ralewaylight';
+	font-size: 50px;
+}
+
+.container{
+	width: 1360px;
+	margin: auto;
+}
+
+.header{
+	height: 106px;
+	width: 100%;
+	display: flex;
+	font-size: 18px;
+	font-family: 'ralewaymedium';
+	background: #FFFFFF;
+}
+.header-logo{
+	margin: 5px 119px 11px 90px;
+}
+.header-nav{
+	width: 716px;
+	display: flex;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+}
+.nav-item{
+	padding: 65px 31px 9px 30px;
+	margin-bottom: 11px;
+}
+.nav-item__border{
+	border-right: solid 1px;
+	border-left: solid 1px;
+	border-color: rgba(62, 62, 62, 0.22);
+}
+.arrow-item{
+	margin-left: 10px;
+}
+.header-interface{
+	display: flex;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+	margin-bottom: 13px;
+	margin-left: 111px;
+}
+.header-interface-search{
+	margin-bottom: 4px;
+	margin-left: 2px;
+	height: 20px;
+	position: relative;
+}
+.search-img{
+	z-index: 1;
+	cursor: pointer;	
+	position: absolute;
+}
+.search-input{
+	outline: none;
+	font-size: 16px;
+	z-index: -1;
+	right: -27px;
+	top: -13px;
+	position: absolute;
+	width: 295px;
+	height: 41px;
+}
+
+
+.header-interface-language{
+	padding-left: 33px;
+	padding-bottom: 4px;
+	width:70px;
+	height: 30px;
+	position: relative;
+}
+#arrow-lang{
+	top:11px;
+	right: 12px;
+	position: absolute;
+	cursor: pointer;	
+}
+.flag{
+	vertical-align: top;
+	width: 31px;
+	height: 30px;
+	display: block;
+}
+.select-menu{
+	z-index: 2;
+	top: 1px;
+	left: 33px;
+	position: absolute;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.content{
+	position: relative;
+}
+.slider-wrapper{
+	position: relative;
+}
+.slider-text{
+	color: white;
+	font-family: ralewaymedium;
+	font-size: 40px;
+	line-height: 64px;
+	position: absolute;
+	top: 94px;
+	bottom: 94px;
+	left: 0;
+	right: 609px;
+	z-index: 1;
+	background-color: rgba(62, 62, 62, 0.9);
+	vertical-align: middle;
+}
+.slider-text-row__top{
+	width: 545px;
+	padding-left: 90px;
+	margin:0;
+	margin-top: 65px;
+	border-bottom: solid 2px;
+	border-color: rgba(228, 181, 107, 0.8);;
+}
+.slider-text-row__bottom{
+	margin:0;
+ padding-left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+.services-background{
+	position: relative;
+}
+#part-1{
+position: absolute;
+top: 79px;
+left: 117px;
+}
+
+#part-2{
+	position: absolute;
+	top: 57px;
+ left: 1px;
+}
+
+#part-3{
+	position: absolute;
+	top: 285px;
+ left: 1px;
+}
+#part-4{
+position: absolute;
+top: -56px;
+right: 115px;
+}
+
+#part-5{
+	position: absolute;
+	top: 240px;
+ right: 38px;
+}
+
+#part-6{
+	position: absolute;
+	top: 39px;
+ right: -12px;
+}
+.services{
+	margin-top: -9px;
+	text-align: center;
+}
+.services-title{
+	font-family: ralewaysemibold;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+	line-height: 77px;
+}
+.underscore{
+	display: block;
+	margin: auto;
+}
+.services-content{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	position: relative;
+}
+.service{
+	position: relative;
+	margin: -8px 5px 6px 6px;
+}
+.service-text{
+	line-height: 20px;
+	text-align: left;
+	color: white;
+	font-family: ralewaymedium;
+	font-size: 20px;
+	position: absolute;
+	left: 0;
+	top: 33px;
+	height: 56px;
+	width: 333px;
+	background-color: rgba(62, 62, 62, 0.9);
+}
+.service-text__sp{
+	width: 339px;
+}
+.text-border{
+	border-right: 2px solid;
+	border-color: #E4B56B; 
+	margin-right: 15px;
+	margin-top: 0;
+	padding-top: 17px;
+	padding-left: 15px;
+}
+
+.service-offer{
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	background: #454647;
+	color: white;
+	padding:10px 32px;
+	margin-bottom: 39px;
+ margin-top: 2px;
+}
+
+
+
+.services-title__company{
+	margin-bottom: 30px;
+	line-height: 61px;
+}
+.company-why{
+	font-family: ralewaymedium;
+	color: white;
+	position: relative;
+	width: 100%;
+	height: 380px;
+	background: url(../img/advantageBG1.png)
+}
+
+.company-why-text{
+	position: absolute;
+	left:0;
+	top: 60px;
+	background-color: rgba(62, 62, 62, 0.9);
+	width: 750px;
+	height: 260px;
+}
+.company-why-text__title{
+	font-size: 40px;
+	line-height: 60px;
+	margin: 0px 369px 5px 90px;
+	padding-top: 20px;
+}
+.company-why-text__subtitle{
+	margin: 25px 52px 40px 90px;
+	font-size: 18px;
+	line-height: 23px;
+	width: 545px;
+	height: 115px;
+}
+
+.text-border__why{
+	border-right: 2px solid;
+	border-color:  #E4B56B;
+	margin-right: 61px;
+}
+
+
+
+
+
+
+
+
+
+.company-advantage{
+	color: white;
+	font-family: ralewaymedium;
+	position: relative;
+	margin-top: 30px;
+	width: 100%;
+	height: 380px;
+	background: url(../img/advantageBG2.png)
+}
+.company-advantage-text{
+	position: absolute;
+	right:0;
+	top: 58px;
+	background-color: rgba(62, 62, 62, 0.9);
+	width: 751px;
+	height: 260px;
+}
+.company-advantage-text__title{
+	font-size: 40px;
+	line-height: 60px;
+	margin: 0px 237px 5px 35px;
+	padding-top: 20px;
+}
+.company-advantage-text__subtitle{
+	margin: 25px 90px 40px 35px;
+	font-size: 18px;
+	line-height: 23px;
+	width: 545px;
+	height: 115px;
+}
+
+.text-border__advantage{
+	border-left: 2px solid;
+	border-color:  #E4B56B;
+	margin-left: 78px;
+}
+
+
+
+
+
+
+
+
+.footer{
+	height: 300px;
+	font-size: 16px;
+	line-height: 21px;
+	font-family: ralewaymedium; 
+}
+.links{
+	width: 930px;
+	display: inline-block;
+}
+.footer-company{
+	border-right: 2px solid;
+	border-color: #E4B56B;
+	display: inline-block;
+	width: 324px;
+	padding-top: 20px;
+	padding-bottom: 14px;
+	margin-bottom: 8.5px;
+	padding-left: 90px;
+}
+.footer-services{
+	border-right: 2px solid;
+	border-color: #E4B56B;
+	display: inline-block;
+	width: 454px;
+	padding-top: 20px;
+	padding-bottom: 14px;
+	margin-bottom: 8.5px;
+	padding-left: 40px;
+}
+.footer-company-items{
+	display: inline-block;
+	width: 325px;
+	padding-left: 90px;
+}
+.footer-services-items{
+	display: inline-block;
+	width: 223px;
+	padding-left: 40px;
+}
+.footer-services-items__last{
+	width: 188px;
+	padding-left: 54px;
+}
+.item{
+	color: #AEAEAE;
+	margin-top: 8px;
+	margin-bottom: 15px;
+}
+
+
+
+
+.contacts{
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 126px;
+	padding-top: 20px;
+}
+.contacts-title{
+	font-size: 18px;
+	line-height: 21px;
+	margin-bottom: 9px;
+}
+.contacts-adress{
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.contacts-work-hours{
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.contacts-number{
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 15px;
+}
+.roboto{
+	font-family:Roboto; 
+}
+.add-space{
+	margin-left: 5px;
+}
+
+
+.svg{
+	width: 21px;
+	height: 21px;
+	margin-right: 11px;
+}
